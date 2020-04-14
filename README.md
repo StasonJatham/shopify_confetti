@@ -9,4 +9,6 @@ Add a rain of Confetti to a Shopify Button, in my case checkout cart on hover
 
 If you have a standard Shopify Theme this will work out of the box no problem. You may get some errors if you forget to add the class to your button, that class has to be the same as the one in the .js file. If you have any other canvases on your page then you may have to specify which one in whatever way you please to the .css file.
 
+
+### Imagine this moving and onhover with the Zur Kasse button
 ![Confetti Image](https://github.com/StasonJatham/shopify_confetti/blob/master/example.png)
