@@ -1,0 +1,18 @@
+<!-- Generates rain of confetti when customer hovers over the checkout button -->
+
+<!-- Checks are always good but i suppose not necessary here (good for an example though -->
+{% if template == 'cart' %}
+  {{ 'confettiCanvas.css' | asset_url | stylesheet_tag  }}
+  {{ 'confettiScript.js' | asset_url | script_tag }}
+  <canvas id="canvas"></canvas>
+{% endif %}
+
+<!-- skipping a bunch of standard code -->
+
+<!-- add "confettiButton to your button -->
+<p>
+  <button type="submit" name="checkout" class="btn confettiButton">{{ 'cart.general.checkout' | t }}</button>
+</p>
+
+   
+<!-- left a bunch more standard code out here -->
